@@ -1,0 +1,19 @@
+{
+  "name": "study",
+  "version": "1.0.0",
+  "description": "node学习",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liangshaoqi/node-study.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liangshaoqi/node-study/issues"
+  },
+  "homepage": "https://github.com/liangshaoqi/node-study#readme"
+}
