@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/liangshaoqi/node-study/issues"
   },
-  "homepage": "https://github.com/liangshaoqi/node-study#readme"
+  "homepage": "https://github.com/liangshaoqi/node-study#readme",
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.2"
+  }
 }
