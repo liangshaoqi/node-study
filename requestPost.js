@@ -1,5 +1,5 @@
 /**
- *  post模拟提交表单,批量添加数据（注水）
+ *  post模拟提交表单,批量添加数据（注水）,token和cookie要每次都替换
 * */
 const https = require('http')
 const queryString  = require('querystring')
@@ -26,12 +26,12 @@ let options = {
         'Connection': 'keep-alive',
         'Content-Length': postData.length,
         'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
-        'Cookie': 'UM_distinctid=162f12e0400103f-0f6f56c14103ff-3a614f0b-1fa400-162f12e0401fe; 53gid2=10669150669005; 53gid0=10669150669005; 53gid1=10669150669005; 53revisit=1524464748237; 53kf_72165667_keyword=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3DCiYMIqpnksiK1XjAYd2NyEWPoAKQYM8MWydaS9vzhRamT71uH6sJTBF0fN-S5-ag%26wd%3D%26eqid%3Db97d705700053ce8000000055add7c66; kf_72165667_keyword_ok=1; 53kf_72165667_land_page=https%253A%252F%252Fwww.codingke.com%252F; kf_72165667_land_page_ok=1; 53uvid=1; onliner_zdfq72165667=0; Hm_lvt_7d5fe787f1dd300413ad4b53656dc0b1=1524464747,1524466174; visitor_type=old; CNZZDATA1256018185=301049807-1524459519-https%253A%252F%252Fwww.baidu.com%252F%7C1524464897; Invite_code=329912; PHPSESSID=7uinmd9r7ibkjoflak81kj59p4; Hm_lpvt_7d5fe787f1dd300413ad4b53656dc0b1=1524468071',
+        'Cookie': 'UM_distinctid=162f16444ae379-0eb5214c0a2bea-3a614f0b-1fa400-162f16444af12ab; 53revisit=1524468303096; 53gid2=10669150669005; PHPSESSID=49sgci8s6p4e24jk5920n8t815; Hm_lvt_7d5fe787f1dd300413ad4b53656dc0b1=1524468303,1524649225; visitor_type=old; 53gid0=10669150669005; 53gid1=10669150669005; 53kf_72165667_keyword=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3DovkSsNqJStyZvpyx0UEsxQb2Yg_jgpLCip3lNTc7v3zqrxSsjZINGYj-cZ0BdAii%26wd%3D%26eqid%3Dc68f45a600024600000000055ae04d04; kf_72165667_keyword_ok=1; 53kf_72165667_land_page=https%253A%252F%252Fwww.codingke.com%252F; kf_72165667_land_page_ok=1; 53uvid=1; onliner_zdfq72165667=0; CNZZDATA1256018185=37613769-1524464897-http%253A%252F%252Fwww.codingke.com%252F%7C1524648482; Invite_code=329912; Hm_lpvt_7d5fe787f1dd300413ad4b53656dc0b1=1524649242',
         'Host': 'www.codingke.com',
         'Origin': 'http://www.codingke.com',
         'Referer': 'http://www.codingke.com/v/1739-lesson',
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
-        'X-CSRF-Token': '11343ca929dda0cc33edb07a6a03804186d30a52',
+        'X-CSRF-Token': '3bd4e31d0ee7d102b9991e1a99dde1f5fa872d6e',
         'X-Requested-With': 'XMLHttpRequest'
     }
 }
